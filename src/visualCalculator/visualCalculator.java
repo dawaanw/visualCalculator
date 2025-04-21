@@ -39,7 +39,7 @@ public class visualCalculator extends JFrame implements ActionListener {
 		frame = new JFrame("Calculator");
 		
 		textField = new JTextField();
-		textField.setEditable(false);
+		textField.setEditable(true);
 		textField.setFont(new Font("Arial", Font.BOLD, 24));
 		
 		//Create buttons via a loop
@@ -89,7 +89,7 @@ public class visualCalculator extends JFrame implements ActionListener {
 		frame.add(textField, BorderLayout.NORTH);
 		frame.add(panel);
 		
-		frame.setSize(500,700);
+		frame.setSize(300,500);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 		
